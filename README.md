@@ -1,5 +1,7 @@
 # Password-Checker-Project
 
-       Before starting this project, I always wondered that the website https://haveibeenpwned.com is storing or saving my passowrds in a database in which I inputted to check that whether is it hacked or not. I know it is a safe website but still I felt insecure about it.
+  Before I started this project, I often worried about the safety of using websites like https://haveibeenpwned.com. Although I believed in its reliability, I felt uneasy about the idea of my passwords being stored in a database, even if it was just for checking if they were compromised.
 
-       So, I decided to create a small project in which it checks the password entered is How many times has it been hacked? By the use of an API of the pwnedpasswords website. In this way, The passwords you enter and check would not be saved/stored in a database just only on your system
+  To address this concern, I created a small project: a Python script that uses the "pwnedpasswords" API. This script lets users check if their passwords are secure without the risk of their passwords being stored in an online database. Instead, the passwords are checked locally on the user's own computer using the "pwnedpasswords" API.
+
+  In simple terms, this project offers users a safe and easy way to check the security of their passwords without having to worry about their passwords being stored in a central database. It gives users peace of mind knowing that their passwords are being checked securely on their own computer.
